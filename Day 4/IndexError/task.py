@@ -7,3 +7,19 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
                      "New Mexico", "Arizona", "Alaska", "Hawaii"]
 
 print(states_of_america)
+
+#index out of range
+number_of_states = len(states_of_america) #50
+
+print(states_of_america[number_of_states -1]) #49
+
+
+#nested lists
+dirty_dozen = ["Cherry", "Apple", "Pear", "Cucumber", "Kale", "Spinnach" ]
+
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinnach"]
+
+fruits_and_veg = [fruits, veg]
+
+print(fruits_and_veg)
